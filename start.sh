@@ -12,5 +12,7 @@ iptables -I FORWARD -s ${VPNNETWORK} -j ACCEPT
 iptables -I FORWARD -d ${VPNNETWORK} -j ACCEPT
 #iptables -t nat -A POSTROUTING -s ${VPNNETWORK} -o ${INTERFACE} -j MASQUERADE
 
-# 执行CND命令
+# 执行CMD命令
 /usr/sbin/ocserv --config /etc/ocserv/ocserv.conf -f -d 1
+
+

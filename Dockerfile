@@ -28,8 +28,8 @@ ENV INTERFACE="eth0" \
     OCSSERVCONFIG="/etc/ocserv" \
     PORT="443" \
     SECRET=testing123 \
-    RX_SPEED=102400 \
-    TX_SPEED=102400
+    RX_SPEED=1024000 \
+    TX_SPEED=1024000
 
 ADD start.sh /start.sh
 
